@@ -333,6 +333,8 @@ def greedy_competent(graph_original):
         # best_strat = sorted_strat[0][0]
         # current_budget = budget - len(best_strat)
         best_blocking_list = block_list.copy()
+        if len(s_node_block_list) == 0:
+            break
         best_blocking_list.update(s_node_block_list[0])
         best_s_node_index = 0
         for i in range(len(s_node_block_list)):
