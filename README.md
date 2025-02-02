@@ -1,4 +1,4 @@
-# to run experiment for static graph
+# Experiment for static graph
 python3 honeypot/driver_competent.py --budget 10 --start 20 --fn adsim05 --algo mixed_attack
 
 --algo:
